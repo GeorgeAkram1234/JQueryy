@@ -1,0 +1,132 @@
+header {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(/images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header h1 {
+    font-size: 64px;
+}
+.move{
+    margin-left: 230px;
+}
+aside {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.open {
+    display: flex;
+    align-items: center;
+}
+
+.open *{
+    cursor: pointer;
+}
+
+.sidebar {
+    padding: 20px;
+    font-size: 24px;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+.sidebar i {
+    cursor: pointer;
+}
+
+.sidebar * {
+    transition: all 0.1s;
+}
+
+.sidebar *:hover {
+    color: brown !important;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+}
+
+#singers h2 {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.bars div h2 {
+    cursor: pointer;
+}
+
+.desc {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+section#countDown {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(/images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.countdown {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#contact h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 900;
+}
+
+#contact ul a {
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+#contact ul a:hover {
+    background-color: brown;
+    color: white !important;
+}
+
+#contact ul a {
+    font-size: 16px;
+}
+#contact ul li{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border: 1px solid #8d8c8c ;
+}
+@media screen and (max-width : 700px) {
+    .maintext h1{
+        font-size: 40px;
+        margin-top: 140px;
+    }
+}
